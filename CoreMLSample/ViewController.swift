@@ -15,7 +15,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate {
     // Outlets to label and view
     @IBOutlet private weak var predictLabel: UILabel!
     @IBOutlet private weak var previewView: UIView!
-    @IBOutlet private weak var visionSwitch: UISwitch!
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    
     
     
     
@@ -36,7 +37,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate {
                                     previewContainer: previewView.layer)
         
         videoCapture.imageBufferHandler = {[unowned self] (imageBuffer) in
-            if self.visionSwitch.isOn {
+            if self.segmentedControl.selectedSegmentIndex == 0 {
                 // Use Vision
                 self.handleImageBufferWithVision(imageBuffer: imageBuffer)
             }

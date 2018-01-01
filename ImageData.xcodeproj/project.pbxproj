@@ -21,7 +21,7 @@
 
 /* Begin PBXFileReference section */
 		9D1336D61FFAB5C6002F7190 /* ImageDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataVC.swift; sourceTree = "<group>"; };
-		A415CAAC1EEA437900983607 /* CoreMLSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A415CAAC1EEA437900983607 /* ImageData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A415CAAF1EEA437900983607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A415CAB11EEA437900983607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A415CAB61EEA437900983607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		A415CAAD1EEA437900983607 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A415CAAC1EEA437900983607 /* CoreMLSample.app */,
+				A415CAAC1EEA437900983607 /* ImageData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,9 +90,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A415CAAB1EEA437900983607 /* CoreMLSample */ = {
+		A415CAAB1EEA437900983607 /* ImageData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A415CABE1EEA437900983607 /* Build configuration list for PBXNativeTarget "CoreMLSample" */;
+			buildConfigurationList = A415CABE1EEA437900983607 /* Build configuration list for PBXNativeTarget "ImageData" */;
 			buildPhases = (
 				A415CAA81EEA437900983607 /* Sources */,
 				A415CAA91EEA437900983607 /* Frameworks */,
@@ -102,9 +102,9 @@
 			);
 			dependencies = (
 			);
-			name = CoreMLSample;
+			name = ImageData;
 			productName = CoreMLSimple;
-			productReference = A415CAAC1EEA437900983607 /* CoreMLSample.app */;
+			productReference = A415CAAC1EEA437900983607 /* ImageData.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A415CAA71EEA437900983607 /* Build configuration list for PBXProject "CoreMLSample" */;
+			buildConfigurationList = A415CAA71EEA437900983607 /* Build configuration list for PBXProject "ImageData" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A415CAAB1EEA437900983607 /* CoreMLSample */,
+				A415CAAB1EEA437900983607 /* ImageData */,
 			);
 		};
 /* End PBXProject section */
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A415CAA71EEA437900983607 /* Build configuration list for PBXProject "CoreMLSample" */ = {
+		A415CAA71EEA437900983607 /* Build configuration list for PBXProject "ImageData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A415CABC1EEA437900983607 /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A415CABE1EEA437900983607 /* Build configuration list for PBXNativeTarget "CoreMLSample" */ = {
+		A415CABE1EEA437900983607 /* Build configuration list for PBXNativeTarget "ImageData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A415CABF1EEA437900983607 /* Debug */,

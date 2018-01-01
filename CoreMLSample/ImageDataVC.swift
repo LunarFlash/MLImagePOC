@@ -15,7 +15,7 @@ class ImageDataVC: UIViewController, UIImagePickerControllerDelegate, UINavigati
 
     @IBOutlet weak var imageView: UIImageView!
     let imagePicker = UIImagePickerController()
-    @IBOutlet weak var imageDataLabel: UILabel!
+    @IBOutlet weak var textView: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +40,6 @@ class ImageDataVC: UIViewController, UIImagePickerControllerDelegate, UINavigati
     @IBAction func didPressCameraButton(_ sender: Any) {
         imagePicker.allowsEditing = false
         imagePicker.sourceType = .photoLibrary
-        
         present(imagePicker, animated: true, completion: nil)
     }
     
@@ -50,6 +49,21 @@ class ImageDataVC: UIViewController, UIImagePickerControllerDelegate, UINavigati
             imageView.image = pickedImage
             
             print(info)
+            if let url = info[UIImagePickerControllerReferenceURL] as? URL {
+                ALAssetsLibrary().asset(for: url, resultBlock: { (asset) in
+                    print(asset?.defaultRepresentation().metadata())
+                    if let metadata = asset?.defaultRepresentation().metadata() as? [String : Any]{
+                        print(metadata)
+                        self.textView.text = metadata.description
+                    }
+                }, failureBlock: { (error) in
+                    print(error)
+                })
+            } else {
+                print("fail")
+            }
+            
+            
             
 
         }
