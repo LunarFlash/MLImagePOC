@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D1336D71FFAB5C6002F7190 /* ImageDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1336D61FFAB5C6002F7190 /* ImageDataVC.swift */; };
 		A415CAB01EEA437900983607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415CAAF1EEA437900983607 /* AppDelegate.swift */; };
 		A415CAB21EEA437900983607 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A415CAB11EEA437900983607 /* ViewController.swift */; };
 		A415CAB71EEA437900983607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A415CAB61EEA437900983607 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D1336D61FFAB5C6002F7190 /* ImageDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDataVC.swift; sourceTree = "<group>"; };
 		A415CAAC1EEA437900983607 /* CoreMLSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A415CAAF1EEA437900983607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A415CAB11EEA437900983607 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				A415CAB61EEA437900983607 /* Assets.xcassets */,
 				A415CAB81EEA437900983607 /* LaunchScreen.storyboard */,
 				A415CABB1EEA437900983607 /* Info.plist */,
+				9D1336D61FFAB5C6002F7190 /* ImageDataVC.swift */,
 			);
 			path = CoreMLSample;
 			sourceTree = "<group>";
@@ -112,7 +115,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = "杨萧玉";
+				ORGANIZATIONNAME = "Yi Wang";
 				TargetAttributes = {
 					A415CAAB1EEA437900983607 = {
 						CreatedOnToolsVersion = 9.0;
@@ -161,6 +164,7 @@
 				A415CACF1EEA4B0300983607 /* Inceptionv3.mlmodel in Sources */,
 				A415CAD71EEA4C0D00983607 /* VideoCameraType.swift in Sources */,
 				A415CAB01EEA437900983607 /* AppDelegate.swift in Sources */,
+				9D1336D71FFAB5C6002F7190 /* ImageDataVC.swift in Sources */,
 				A415CAD81EEA4C1000983607 /* AVCaptureDevice+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

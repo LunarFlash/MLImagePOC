@@ -17,6 +17,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate {
     @IBOutlet private weak var previewView: UIView!
     @IBOutlet private weak var visionSwitch: UISwitch!
     
+    
+    
+    
     // some properties used to control the app and store appropriate values
     
     let inceptionv3model = Inceptionv3()
@@ -25,6 +28,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //imagePicker.delegate = self
         setupVision()
         let spec = VideoSpec(fps: 5, size: CGSize(width: 299, height: 299))
         videoCapture = VideoCapture(cameraType: .back,
@@ -170,4 +174,5 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate {
         super.didReceiveMemoryWarning()
     }
 }
+
 
