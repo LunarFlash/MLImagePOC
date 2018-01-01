@@ -2,6 +2,7 @@
 //  ImageDataVC.swift
 //  CoreMLSample
 //  https://stackoverflow.com/questions/40175160/exif-data-read-and-write
+//  https://plymouthsoftware.com/articles/swift-how-to-retrieve-metadata-from-album-images-in-ios7/
 //  Created by Yi Wang on 1/1/18.
 //  Copyright © 2018 Yi Wang. All rights reserved.
 //
